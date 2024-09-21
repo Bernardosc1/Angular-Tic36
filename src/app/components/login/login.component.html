@@ -1,0 +1,25 @@
+    <div class="div-card">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>Login</mat-card-title>
+                <mat-card-subtitle>Welcome!</mat-card-subtitle>
+                <img src="https://icones.pro/wp-content/uploads/2022/07/icone-angulaire-bleu.png" mat-card-avatar>
+            </mat-card-header>
+            <mat-card-content>
+                <form class="formulario">
+                <div class="login">
+                    <label for="">Login</label>
+                    <input id="login" type="text" required #login>
+                </div>
+                <div class="password">
+                    <label for="">Password</label>
+                    <input  type="password" required #password>
+                </div>
+                <div class="buttons">
+                    <button (click)="log()" mat-flat-button class="log-button">Login</button>
+                    <button (click)="register()" mat-button class="reg-button">Register</button>
+                </div>
+            </form>
+            </mat-card-content>
+        </mat-card>
+    </div>
