@@ -12,6 +12,7 @@ import { MatCardModule } from '@angular/material/card';
 })
 export class RegisterComponent {
 
+  //Referenciando variaveis
   @ViewChild('login') userLogin!: ElementRef;
   @ViewChild('password') userPassword!: ElementRef;
   @ViewChild('confirmPassword') confirmPassword!: ElementRef;
@@ -23,8 +24,9 @@ export class RegisterComponent {
     const userLogin = this.userLogin.nativeElement.value;
     const userPassword = this.userPassword.nativeElement.value;
     const confirmPassword = this.confirmPassword.nativeElement.value;
-
+    //Condicional para verificação de preenchimento dos campos
     if(userLogin != "" && userPassword != "" && confirmPassword !="") {
+      //Condicional para verificação de igualdade das senhas digitadas
         if (userPassword === confirmPassword) {
           alert("Sucessful user register")
         } else{
