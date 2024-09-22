@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {MatCardModule} from '@angular/material/card'
 import {MatButtonModule} from '@angular/material/button'
+import { RouterModule, Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -11,4 +12,9 @@ import {MatButtonModule} from '@angular/material/button'
 })
 export class HeaderComponent {
 
+  constructor(private router: Router) {} 
+
+  login(): void {
+    this.router.navigate(['/']);
+  }
 }

@@ -1,9 +1,22 @@
-.content{
+.flex-column {
     display: flex;
-    height: 80vh;
-    width: 100%;
-    background-color: aquamarine;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    flex-direction: column;
+    height: 100vh; /* Garantir que ocupe toda a altura da viewport */
+}
+
+.header{
+    height: 10%;
+}
+
+.content {
+height: 80%;
+width: 100%;
+display: flex;
+background-color: aqua;
+justify-content: center;
+align-items: center;
+}
+
+.footer {
+    height: 10%;
 }

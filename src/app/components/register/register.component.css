@@ -13,7 +13,17 @@ mat-card{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    background-color: rgb(5, 74, 131);
 }
+
+mat-card mat-card-title{
+    color: white;
+ }
+ 
+ mat-card mat-card-subtitle{
+     color: white;
+  }
+  
 
 mat-card-content{
     display: flex;
@@ -31,17 +41,20 @@ mat-card-content{
 mat-card-content .login{
     display: flex;
     justify-content: space-between;
+    color: white;
     gap: 10px;
 }
 
 mat-card-content .password{
     display: flex;
     justify-content: space-between;
+    color: white;
     gap: 10px;
 }
 mat-card-content .confirm-password{
     display: flex;
     justify-content: space-between;
+    color: white;
     gap: 10px;
 }
 
@@ -59,7 +72,11 @@ mat-card-content .confirm-password{
 
 
 .buttons .log-button{
-    color: rgb(69, 112, 192);
+    color: white;
+}
+
+.buttons .log-button:hover{
+    color: rgb(112, 112, 112);
 }
 
 

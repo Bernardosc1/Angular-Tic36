@@ -24,7 +24,7 @@ export class LoginComponent {
     const inputSenha = this.userSenha.nativeElement.value;
 
     if (inputLogin === this.login && inputSenha === this.senha) {
-      this.router.navigate(['/register']);
+      this.router.navigate(['/home']);
     } else {
       alert("Login ou senha incorretos!");
     }
