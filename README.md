@@ -1,27 +1,33 @@
-# AngularProject
+Projeto de Aplicação Angular - Tela de Login, Cadastro e Home
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
 
-## Development server
+Descrição do Projeto
+Este projeto consiste em uma aplicação básica desenvolvida em Angular para fins acadêmicos, contendo três telas principais: uma tela de login, uma tela de cadastro de usuário, e uma página principal (home) que é acessada após a autenticação. O objetivo é simular o processo de autenticação e registro de usuários, aplicando conceitos básicos de Angular e desenvolvimento de aplicações web.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Clone este repositório para sua máquina local:
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-## Code scaffolding
+2.Navegue até o diretório do projeto:
+cd nome-do-repositorio
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3.Instale as dependências do projeto:
+npm install
 
-## Build
+4.Execute a aplicação em um servidor de desenvolvimento:
+ng serve
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+5.Acesse a aplicação em seu navegador através do endereço:
+Acesse a aplicação em seu navegador através do endereço:
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Tecnologias Utilizadas
+Angular: Framework principal utilizado para o desenvolvimento da aplicação.
+TypeScript: Linguagem utilizada para implementar a lógica da aplicação.
+HTML5 & CSS3: Utilizados para a construção do layout das páginas.
+Node.js & npm: Utilizados para gerenciamento de pacotes e execução do servidor de desenvolvimento.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Possíveis Melhorias Futuras
+Implementação de validação de dados nos formulários de login e cadastro.
+Integração com uma API de autenticação real para gerenciamento de usuários.
+Inclusão de feedback visual em caso de erros de autenticação ou de cadastro.
+Estilização aprimorada para tornar a interface mais atrativa e responsiva para dispositivos móveis.
